@@ -11,6 +11,6 @@ public class GoogleSearchTest{
         open("https://www.google.com");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("selenide.org"));
-        
+
     }
 }
